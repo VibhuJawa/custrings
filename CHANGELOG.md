@@ -17,6 +17,7 @@ Version jump from 0.3->0.7 is to align with other RAPIDS projects.
 
 ## Improvements
 
+- PR #255 Removed unnecessary cudaDeviceSync calls
 - PR #237 Removed internal util.h from include dir
 - PR #216 Fixed build instructions and removed obsolete doc/build files
 - PR #178 Added compute_statistics to C++ interface
@@ -30,6 +31,7 @@ Version jump from 0.3->0.7 is to align with other RAPIDS projects.
 
 ## Bug Fixes
 
+- PR #248 Fixed docstring for index,rindex,find,rfind
 - PR #245 Fixed backref to continue replacing
 - PR #234 Added more type-checking to gather method
 - PR #226 Added data pre-check to create_from_index
